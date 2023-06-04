@@ -1,0 +1,137 @@
+#bgcol{
+    /* background-color: #6c5631; */
+}
+#game{
+    background-color: #b8b3b3;
+    margin-top: 5px;
+    border-bottom:8px solid #000;
+    border-top:8px solid #000;
+   
+}
+#baax{
+    display: flex;
+    justify-content: center;
+    
+}
+#bigBox{
+    /* border: 2px solid #000000; */
+    height: 200px;
+    width: 350px;
+    position: relative;
+    
+  
+   
+}
+#first{
+    border-right:5px solid #000000;
+    border-bottom: 8px solid #040404;
+    height: 80px;
+    width: 150px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #b8b3b3;
+   color: #4a045a;
+   font-weight: bold;
+   border-radius: 15px;
+   font-style: oblique;
+    
+
+}
+#second{
+    border-top:8px solid #000;
+    border-right: 5px solid #000;
+    height: 80px;
+    width: 150px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #b8b3b3;
+    color: #080808;
+    border-radius: 15px;
+    position: absolute;
+    top: 76px;
+}
+#third{
+    border-left:5px solid #000;
+    border-bottom: 8px solid #000;
+   
+    height: 80px;
+    width: 150px;
+    margin-top: 20px;
+    position: absolute;
+    right: 40px;
+    top: -10px;
+    text-align: center;
+    background-color: #b8b3b3;
+    color: #080808;
+    border-radius: 15px;
+}
+#fourth{
+    
+    border-top:8px solid #000;
+    border-left: 5px solid #000;
+    background-color: gold;
+    height: 80px;
+    width: 150px;
+    margin-top: 20px;
+    position: absolute;
+    right: 40px;
+    top: 76px;
+    text-align: center;
+    background-color: #b8b3b3;
+    color: #080808;
+    border-radius: 15px;
+}
+#income{
+text-align: center;
+background-color: #9b9b9b;
+    height: 160px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border-top: 7px solid #000;
+    border-left: 7px solid #000;
+    
+}
+#Expenses{
+    
+    text-align: center;
+        background-color: #9b9b9b;
+        height: 160px;
+        width: 200px;
+        margin: auto;
+        border-radius: 20px;
+        border-right: 7px solid #000;
+        border-bottom: 7px solid #000;
+        
+    }
+    .btset{
+       border-radius: 10px;
+       border: 2px solid #000;
+       background-color: rgb(255, 255, 255);
+    }
+    #blank{
+        height: 20px;
+    }
+    #grandParent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #parentTag{
+
+        text-align: center;
+        background-color: rgb(118, 122, 118);
+        height: 70px;
+        width: 750px;
+        border-radius: 20px;
+        margin-bottom: 50px;
+    }
+    #expenseDetails{
+        text-align: center;
+        margin-top: 10px;
+        font-size: larger;
+        font-weight: bold;
+        font-style: initial;
+        color: rgb(0, 0, 0);
+    }
